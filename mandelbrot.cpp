@@ -47,7 +47,9 @@ int main() {
 	  gdImageSetPixel(im, x0+w, y0+h, color);
 	}
   }
-  FILE *out = fopen(outfile, "wb"); if(out == NULL) return 1;
+  FILE *out = fopen(outfile, "wb");
+  if(out == NULL)
+	return 1;
   cout << "output: " << outfile << endl;
   gdImagePng(im, out);
   fclose(out);
