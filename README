@@ -1,0 +1,6 @@
+install gd2:
+sudo apt-get install libgd2-xpm
+sudo apt-get install libgd2-xpm-devel
+
+install PIL:
+sudo apt-get install python-imaging
