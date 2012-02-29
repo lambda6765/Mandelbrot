@@ -1,8 +1,2 @@
-Debugger entered--Lisp error: (error "/home/as/src/mandelbrot/: no such directory")
-  signal(error ("/home/as/src/mandelbrot/: no such directory"))
-  error("%s: no such directory" "/home/as/src/mandelbrot/")
-  basic-save-buffer-2()
-  basic-save-buffer-1()
-  basic-save-buffer()
-  save-buffer(1)
-  call-interactively(save-buffer nil nil)
+マンデルブロ集合の画像を出力します
+PythonとC++の速度比較用
